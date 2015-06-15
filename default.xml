@@ -3,6 +3,9 @@
 <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
+<remote name="bitbucket"
+          fetch="https://bitbucket.org/"/>
+
   <remote  name="github"
            fetch="git://github.com/"
            review="https://review.slimroms.eu/"/>
@@ -568,5 +571,10 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="lp5.1" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="lp5.1" />
+  
+  <!-- Uber toolchain -->
+  <project name="fusionjack/uber_arm-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
+  <project name="fusionjack/uber_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="master" />
 
 </manifest>
