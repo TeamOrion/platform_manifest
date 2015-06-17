@@ -542,7 +542,7 @@
   <project path="platform_manifest" name="TeamOrion/platform_manifest" remote="github" revision="lp5.1" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/orion" name="SlimRoms/vendor_orion" remote="github" revision="lp5.1" />
+  <project path="vendor/orion" name="TeamOrion/vendor_orion" remote="github" revision="lp5.1" />
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.1" />
