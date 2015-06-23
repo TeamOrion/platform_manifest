@@ -140,6 +140,7 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.1" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" />
@@ -405,6 +406,7 @@
   <project path="packages/apps/Contacts" name="TeamOrion/packages_apps_Contacts" remote="github" revision="lp5.1" />
   <project path="packages/apps/ContactsCommon" name="TeamOrion/packages_apps_ContactsCommon" remote="github" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="lp5.1" />
+  <project path="packages/apps/LockClock" name="TeamOrion/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Dialer" name="TeamOrion/packages_apps_Dialer" remote="github" revision="lp5.1" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="lp5.1" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="lp5.1" />
@@ -578,7 +580,4 @@
   <project name="fusionjack/uber_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master"/>
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="master" />
  
-  <!-- CM File manager -->
-  <project path="packages/apps/CMFileManager" name="TeamOrion/android_packages_apps_CMFileManager" remote="github" revision="cm-12.1" />
-
 </manifest>
