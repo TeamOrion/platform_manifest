@@ -581,6 +581,8 @@
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="master" />
 
  <!-- CM Eleven music player-->
- 
 <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
+
+ <!-- Kernel Adiutor -->
+<project path="packages/apps/KernelAdiutor" name="Grarak/KernelAdiutor" remote="github" revision="master" />
 </manifest>
