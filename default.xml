@@ -587,4 +587,8 @@
   
   <!-- Orion Build Script-->
   <copyfile src="Documentation/orion.sh" dest="orion.sh" />
+
+ <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+
 </manifest>
