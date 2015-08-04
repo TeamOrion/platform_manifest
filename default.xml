@@ -590,4 +590,6 @@
  <!-- Anti-piracy support -->
   <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
 
+<!-- Orion OTA [thanks SlimSaber]-->
+  <project path="packages/apps/SlimOTA" name="TeamOrion/packages_apps_SlimOTA" remote="github" revision="master" />
 </manifest>
