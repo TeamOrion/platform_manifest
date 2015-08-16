@@ -328,20 +328,20 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="lp5.1" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="lp5.1" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
+  <project path="hardware/intel/audio_media" name="/platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="SlimRoms/hardware_intel_common_libmix" remote="github" revision="lp5.1" />
-  <project path="hardware/intel/common/libstagefrighthw" name="SlimRoms/hardware_intel_common_libstagefrighthw" remote="github" revision="lp5.1" />
-  <project path="hardware/intel/common/libva" name="SlimRoms/hardware_intel_common_libva" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/common/libmix" name="CM-zenfone2/android_hardware_intel_common_libmix" remote="github" revision="cm-12.1" />
+  <project path="hardware/intel/common/libstagefrighthw" name="CM-zenfone2/android_hardware_intel_common_libstagefrighthw" remote="github" revision="cm-12.1" />
+  <project path="hardware/intel/common/libva" name="CM-zenfone2/android_hardware_intel_common_libva" remote="github" revision="cm-12.1" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="SlimRoms/hardware_intel_common_omx-components" remote="github" revision="lp5.1" />
-  <project path="hardware/intel/common/utils" name="SlimRoms/hardware_intel_common_utils" remote="github" revision="lp5.1" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="SlimRoms/hardware_intel_common_wrs_omxil_core" remote="github" revision="lp5.1" />
-  <project path="hardware/intel/img/hwcomposer" name="SlimRoms/hardware_intel_img_hwcomposer" remote="github" revision="lp5.1" />
-  <project path="hardware/intel/img/libdrm" name="SlimRoms/hardware_intel_img_libdrm" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/common/omx-components" name="CM-zenfone2/android_hardware_intel_common_omx-components" remote="github" revision="cm-12.1" />
+  <project path="hardware/intel/common/utils" name="CM-zenfone2/android_hardware_intel_common_utils" remote="github" revision="cm-12.1" />
+  <project path="hardware/intel/common/wrs_omxil_core" name="CM-zenfone2/android_hardware_intel_common_wrs_omxil_core" remote="github" revision="cm-12.1" />
+  <project path="hardware/intel/img/hwcomposer" name="CM-zenfone2/android_hardware_intel_img_hwcomposer" remote="github" revision="cm-12.1" />
+  <project path="hardware/intel/img/libdrm" name="CM-zenfone2/android_hardware_intel_img_libdrm" remote="github" revision="cm-12.1" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="SlimRoms/hardware_intel_img_psb_video" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/img/psb_video" name="CM-zenfone2/android_hardware_intel_img_psb_video" remote="github" revision="cm-12.1" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="lp5.1" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="lp5.1" />
