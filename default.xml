@@ -596,4 +596,7 @@
 
 <!-- Orion OTA [thanks SlimSaber]-->
   <project path="packages/apps/SlimOTA" name="TeamOrion/packages_apps_SlimOTA" remote="github" revision="master" />
+
+<!--Slim wallpaper picker [thanks fusionjack]-->
+  <project path="packages/apps/WallpaperPicker" name="SlimSaber/packages_apps_WallpaperPicker" remote="github" revision="lp5.1" />
 </manifest>
