@@ -11,7 +11,7 @@ Then sync up with this command:
 
 Get the build script from documentation repo or fetch using this command (make sure you are in the root source directory) -
 
-curl https://raw.githubusercontent.com/TeamOrion/Documentation/master/orion.sh
+wget https://raw.githubusercontent.com/TeamOrion/Documentation/master/orion.sh
 
 Look over the documentation to setup local manifest for your device. 
 
