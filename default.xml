@@ -23,7 +23,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!--- CM --->
+  <!--- CM-->
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-13.0" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-13.0" />  
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" remote="github" revision="cm-13.0" />  
@@ -345,7 +345,7 @@
   <project path="hardware/qcom/audio-caf/msm8660" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8660" />
   <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-130-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
