@@ -31,7 +31,6 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" remote="github" revision="cm-13.0" />  
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-13.0" />  
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-13.0" />  
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="mm6.0" />
@@ -82,6 +81,7 @@
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="mm6.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
