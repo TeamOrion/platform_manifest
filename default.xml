@@ -22,6 +22,7 @@
 
   <project path="build" name="android_build" remote="orion" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
 
   <!--- CM-->
