@@ -6,19 +6,19 @@
   <remote  name="github"
            fetch="git://github.com/"
            review="https://review.slimroms.org/"/>
-           
+
   <remote name="bitbucket"
           fetch="https://bitbucket.org/"/>
-          
+
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
-  
+
   <remote name="to-d"
 	  fetch="https://github.com/TeamOrion-Devices"
 	  revision="mm6.0" />
-  
+
   <remote name="orion"
 	  fetch="https://github.com/TeamOrion"
 	  revision="mm6.0" />
@@ -417,7 +417,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="orion" revision="mm6.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
@@ -454,7 +454,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="mm6.0" />
-  <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="mm6.0-staging" />
+  <!-- <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="mm6.0-staging" /> -->
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="mm6.0" />
   <project path="packages/services/Telephony" name="TeamOrion/packages_services_Telephony" remote="github" revision="mm6.0" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
@@ -555,7 +555,7 @@
 
   <!--Documentation -->
   <project path="Documentation" name= "TeamOrion/Documentation" remote="github" revision="master" />
-  
+
   <!-- Uber toolchain -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-uber" name="UBERTC/arm-eabi-5.2" remote="bitbucket" revision="master" />
