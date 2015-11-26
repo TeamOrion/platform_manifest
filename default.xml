@@ -28,7 +28,7 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" remote="orion" revision="mm6.0"  />
+  <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0"  />
   <project path="bionic" name="android_bionic" remote="orion" revision="mm6.0" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="mm6.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -242,7 +242,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="mm6.0" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="android_external_skia" remote="orion" revision="mm6.0" />
+  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="mm6.0" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
@@ -309,7 +309,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="frameworks_support" remote="orion" revision="mm6.0" />
+  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -499,7 +499,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="android_system_bt" remote="orion" revision="mm6.0" />
+  <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="mm6.0" />
   <project path="system/core" name="android_system_core" remote="orion" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
