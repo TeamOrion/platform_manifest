@@ -423,7 +423,7 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="mm6.0" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="orion" revision="mm6.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="orion" revision="mm6.0" />
@@ -455,7 +455,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="mm6.0" />
   <!-- <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="mm6.0-staging" /> -->
-  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="mm6.0" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="orion" revision="mm6.0" />
   <project path="packages/services/Telephony" name="TeamOrion/packages_services_Telephony" remote="github" revision="mm6.0" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
