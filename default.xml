@@ -503,7 +503,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="aospb" />
+  <project path="manifest" name="manifest" remote="aospb" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="vendor_slim" remote="aospb" />
