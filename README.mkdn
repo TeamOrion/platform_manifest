@@ -8,14 +8,18 @@ Getting Started
 To get started with OrionOS, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
-Please take note that we have two main line branches depending on
-which hardware base your phone is working.
+To initialize your local repository using the OrionOS trees, use this command:
 
 To initialize your local repository using the Orion trees, use this command:
 
 
 	repo init -u git://github.com/TeamOrion/manifest.git -b 6.0.1
 
+
+If you want to download our Uber toolchains do:
+
+
+    mkdir .repo/local_manifests && cp .repo/manifests/uber_manifest.xml .repo/local_manifests/
 
 
 Then sync up with this command:
