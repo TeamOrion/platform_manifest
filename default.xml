@@ -307,7 +307,6 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aospb" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aospb" />
-  <project path="hardware/cyanogen" name="hardware_cyanogen" remote="aospb" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -499,7 +498,7 @@
   <project path="manifest" name="manifest" remote="aospb" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="vendor_slim" remote="aospb" />
+  <project path="vendor/aospb" name="vendor_aospb" remote="aospb" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
