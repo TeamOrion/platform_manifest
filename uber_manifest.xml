@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- 4.9 toolchains -->
+
   <project name="GrinningFerret/arm-eabi-4.9-uber" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master"/>
   <project name="GrinningFerret/arm-eabi-4.9-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a7" remote="bitbucket" revision="master"/>
   <project name="GrinningFerret/aarch64-linux-android-4.9-kernel" path="prebuilts/gcc/linux-x86/arm/aarch64-linux-android-4.9-kernel" remote="bitbucket" revision="master"/>
   <project name="GrinningFerret/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master"/>
   <project name="GrinningFerret/arm-linux-androideabi-4.9-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a7" remote="bitbucket" revision="master"/>
   <project name="GrinningFerret/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/arm/aarch64-linux-android-4.9" remote="bitbucket" revision="master"/>
+
+  <project name="akhilnarang/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/arm/aarch64-linux-android-4.9" remote="bitbucket" revision="master"/>
+  <project name="akhilnarang/aarch64-linux-android-5.3-kernel" path="prebuilts/gcc/linux-x86/arm/aarch64-linux-android-5.3-kernel" remote="bitbucket" revision="master"/>
+  <project name="akhilnarang/arm-linux-androideabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" remote="bitbucket" revision="master"/>
+  <project name="akhilnarang/arm-eabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="bitbucket" revision="master"/>
+
 </manifest>
 
