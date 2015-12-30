@@ -557,14 +557,6 @@
   <project path="Documentation" name= "TeamOrion/Documentation" remote="github" revision="master" >
   <copyfile src="orion.sh" dest="orion.sh" />
   </project>
-
-  <!-- Uber toolchain -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-uber" name="UBERTC/arm-eabi-5.2" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-uber" name="UBERTC/arm-linux-androideabi-5.2" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel-uber" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.2-kernel-uber" name="UBERTC/aarch64-linux-android-5.2-kernel" remote="bitbucket" revision="master" />
   
   <!-- Orion OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="orion" revision="mm6.0" />
