@@ -362,12 +362,6 @@
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="aospb" revision="mm6.0-caf" />
   <project path="hardware/ril" name="hardware_ril" remote="aospb" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="aospb" revision="mm6.0-caf" />
-  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="aospb" />
-  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="aospb" />
-  <project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="aospb" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="aospb" />
-  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aospb" />
-  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aospb" />
   <project path="libcore" name="libcore" remote="aospb" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
