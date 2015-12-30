@@ -387,6 +387,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="aospb" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="aospb" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="aospb" />
@@ -503,12 +504,6 @@
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aospb" />
-
-  <!-- SlimLauncher -->
-  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="aospb" />
-
-  <!--Power Hal -->
-  <project path="hardware/cm" name="hardware_cm" remote="aospb" />
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="prebuilt" remote="aospb" />
