@@ -562,4 +562,7 @@
   <!-- Orion OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="orion" revision="mm6.0" />
   
+  <!-- SlimFileManager -->
+  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="mm6.0" />
+  
 </manifest>
