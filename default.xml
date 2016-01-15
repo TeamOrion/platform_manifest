@@ -23,7 +23,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="orion" >
+  <project path="build" name="android_build" remote="orion" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -504,7 +504,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="manifest" remote="orion" />
+  <project path="manifest" name="platform_manifest" remote="orion" />
 
   <!-- New Additions for slim -->
   <project path="vendor/orion" name="vendor_orion" remote="orion" />
