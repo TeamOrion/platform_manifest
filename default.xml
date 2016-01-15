@@ -525,5 +525,11 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aospb" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
+  
+  <!-- OrionOS -->
+  
+  <!--Documentation -->
+  <project path="Documentation" name= "TeamOrion/Documentation" remote="github" revision="master" />
+
 
 </manifest>
