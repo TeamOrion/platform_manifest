@@ -13,7 +13,7 @@ To initialize your local repository using the OrionOS trees, use this command:
 To initialize your local repository using the Orion trees, use this command:
 
 
-	repo init -u git://github.com/TeamOrion/manifest.git -b 6.0.1
+	repo init -u git://github.com/TeamOrion/platform_manifest.git -b 6.0.1
 
 
 If you want to download our Uber toolchains do:
