@@ -538,4 +538,10 @@
   <!-- SlimFileManager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="mm6.0" />
   
+  <!--Snap-->
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
+
+  <!--LockClock-->
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
+
 </manifest>
