@@ -7,6 +7,9 @@
            fetch="git://github.com/"
            review="https://review.slimroms.org/"/>
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/"/>
+
   <remote  name="aospb"
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
