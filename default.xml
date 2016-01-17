@@ -281,7 +281,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="frameworks_av" remote="aospb" />
+  <project path="frameworks/av" name="frameworks_av" remote="orion" />
   <project path="frameworks/base" name="frameworks_base" remote="orion" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -483,7 +483,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="system_bt" remote="aospb" />
-  <project path="system/core" name="system_core" remote="aospb" />
+  <project path="system/core" name="android_system_core" remote="orion" />
   <project path="system/extras" name="system_extras" remote="aospb" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="system_keymaster" remote="aospb" />
