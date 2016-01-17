@@ -16,12 +16,6 @@ To initialize your local repository using the Orion trees, use this command:
 	repo init -u git://github.com/TeamOrion/platform_manifest.git -b 6.0.1
 
 
-If you want to download our Uber toolchains do:
-
-
-    mkdir .repo/local_manifests && cp .repo/manifests/uber_manifest.xml .repo/local_manifests/
-
-
 Then sync up with this command:
 
 	repo sync
