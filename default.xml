@@ -382,7 +382,7 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="aospb" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aospb" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aospb" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="aospb" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
