@@ -60,7 +60,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/qcom/common" name="device_qcom_common" remote="orion" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aospb" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="to-d" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
