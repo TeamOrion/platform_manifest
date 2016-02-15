@@ -17,11 +17,11 @@
   <remote name="to-d"
 	  fetch="https://github.com/TeamOrion-Devices"
 	  revision="6.0.1" />
-  
+
   <remote name="orion"
 	  fetch="https://github.com/TeamOrion"
 	  revision="6.0.1" />
- 
+
   <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
            sync-j="4"
@@ -492,7 +492,7 @@
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
   <project path="system/security" name="system_security" remote="aospb" />
-  <project path="system/vold" name="system_vold" remote="aospb" />
+  <project path="system/vold" name="system_vold" remote="orion" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -537,9 +537,9 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aospb" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
-  
+
   <!-- OrionOS -->
-  
+
   <!--Documentation -->
   <project path="Documentation" name= "TeamOrion/Documentation" remote="github" revision="master" >
   <copyfile src="orion.sh" dest="orion.sh" />
@@ -547,7 +547,7 @@
 
   <!-- Orion OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="orion" revision="mm6.0" />
-    
+
   <!--Snap-->
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
 
