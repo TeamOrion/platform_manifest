@@ -9,6 +9,9 @@
 
   <remote  name="bb"
            fetch="https://bitbucket.org/"/>
+           
+  <remote  name="cm"
+           fetch="https://github.com/Cyanogenmod/" />
 
   <remote  name="aospb"
            fetch="https://github.com/AOSPB"
@@ -59,7 +62,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="orion" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-13.0" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="to-d" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -343,7 +346,7 @@
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="aospb" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8916" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8994" />
@@ -352,7 +355,7 @@
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="aospb" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aospb" />
   <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8916" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8994" />
@@ -361,7 +364,7 @@
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospb" />
   <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="aospb" />
   <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8916" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8994" />
