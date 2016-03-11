@@ -18,3 +18,4 @@ Then sync up with this command:
 
 	repo sync
 
+You may track qcom common repo locally, as some devices need different ones.
