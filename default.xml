@@ -545,6 +545,6 @@
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
 
   <!--LockClock-->
-  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="orion" revision="6.0.1" />
 
 </manifest>
