@@ -434,7 +434,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aospb" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aospb" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="orion" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="orion" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="orion" />
