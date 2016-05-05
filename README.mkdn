@@ -1,6 +1,6 @@
 Welcome to OrionOS
 ===================
-
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/orion-os/localized.svg)](https://crowdin.com/project/orion-os)
 
 Getting Started
 ---------------
