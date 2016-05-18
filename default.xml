@@ -539,7 +539,7 @@
   </project>
 
   <!-- Orion OTA -->
-  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="orion" revision="mm6.0" />
+  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="orion" revision="6.0.1" />
 
   <!--Snap-->
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
