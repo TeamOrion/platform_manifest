@@ -542,7 +542,7 @@
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="orion" revision="6.0.1" />
 
   <!--Snap-->
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="49caa04becf01ec2ec1f6193ff156de367e65b30" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="orion" revision="6.0.1" />
 
   <!--LockClock-->
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="orion" revision="6.0.1" />
