@@ -399,6 +399,7 @@
   <project path="packages/apps/Email" name="packages_apps_Email" remote="aospb" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="aospb" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospb" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="orion" revision="6.0.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
