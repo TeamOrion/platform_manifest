@@ -511,14 +511,14 @@
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aospb" />
 
   <!-- Uber Toolchain  -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="UBERTC/arm-eabi-5.3" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="UBERTC/arm-linux-androideabi-5.3" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="UBERTC/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" name="DespairFactor/arm-eabi-5.x" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="DespairFactor/arm-linux-androideabi-5.x" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="DespairFactor/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" name="DespairFactor/aarch64-linux-android-5.x-kernel" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.0-kernel" name="UBERTC/aarch64-linux-android-6.0-kernel" remote="bb" revision="master" />
 
   <!-- SamsungServiceMode -->
