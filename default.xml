@@ -293,7 +293,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="frameworks_native" remote="orion" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="aospb" />
+  <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
@@ -349,8 +349,8 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8994" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aospb" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="aospb" revision="mm6.0-caf" />
+  <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0-caf" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="aospb" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aospb" />
   <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8084" />
@@ -383,13 +383,13 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="aospb" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aospb" />
+  <project path="packages/apps/Bluetooth" name="AOSP-RRO/platform_packages_apps_Bluetooth" remote="github" revision="marshmallow" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="aospb" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="aospb" />
-   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="aospb" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="orion" />
@@ -462,7 +462,7 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" clone-depth="1" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" clone-depth="1" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" clone-depth="1" />
-   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" />
@@ -476,7 +476,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="system_bt" remote="aospb" />
+  <project path="system/bt" name="AOSP-RRO/platform_system_bt" remote="github" revision="marshmallow" />
   <project path="system/core" name="system_core" remote="orion" />
   <project path="system/extras" name="system_extras" remote="aospb" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
