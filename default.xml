@@ -97,7 +97,7 @@
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs,pdk-fs" />
+<project path="external/dhcpcd" name="SlimRoms/android_external_dhcpcd" remote ="github" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
@@ -124,6 +124,8 @@
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="external_fuse" remote="aospb" />
+  <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" remote="github" />
+  <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" remote="github" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
