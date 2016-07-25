@@ -16,6 +16,10 @@
   <remote  name="aospb"
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
+           
+  <remote  name="slim"
+           fetch="https://github.com/SlimRoms"
+           revision="mm6.0" />
 
   <remote name="to-d"
 	  fetch="https://github.com/TeamOrion-Devices"
@@ -340,47 +344,47 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="aospb" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="aospb" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8084" />
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8994" />
-  <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="slim" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio"  remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0-caf" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="aospb" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aospb" />
-  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8084" />
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8994" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="aospb" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aospb" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospb" />
-  <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="aospb" />
-  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8084" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" />
+  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="slim" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="slim" />
+  <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="slim" />
+  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aospb" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="aospb" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="aospb" revision="mm6.0-caf" />
-  <project path="hardware/ril" name="hardware_ril" remote="aospb" />
-  <project path="hardware/ril-caf" name="hardware_ril" remote="aospb" revision="mm6.0-caf" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="slim" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="slim" revision="mm6.0-caf" />
+  <project path="hardware/ril" name="hardware_ril" remote="slim" />
+  <project path="hardware/ril-caf" name="hardware_ril" remote="slim" revision="mm6.0-caf" />
   <project path="libcore" name="libcore" remote="aospb" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
