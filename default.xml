@@ -101,7 +101,7 @@
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
-<project path="external/dhcpcd" name="SlimRoms/android_external_dhcpcd" remote ="github" revision="mm6.0" />
+  <project path="external/dhcpcd" name="SlimRoms/android_external_dhcpcd" remote ="github" revision="mm6.0" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
@@ -553,5 +553,8 @@
 
   <!--LockClock-->
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="orion" revision="6.0.1" />
+
+  <!--masquerade -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
 </manifest>
