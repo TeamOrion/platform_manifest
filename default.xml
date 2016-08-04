@@ -402,6 +402,7 @@
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="orion" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="orion" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="orion" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="aospb" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospb" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
