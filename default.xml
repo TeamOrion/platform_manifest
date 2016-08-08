@@ -389,25 +389,31 @@
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="slim" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio"  remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8996" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" />
   <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8952" />
   <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8996" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="slim" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="slim" />
   <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="slim" />
   <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8996" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
