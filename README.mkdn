@@ -1,0 +1,21 @@
+Welcome to OrionOS
+===================
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/orion-os/localized.svg)](https://crowdin.com/project/orion-os)
+
+Getting Started
+---------------
+
+To get started with OrionOS, you'll need to get familiar with
+[Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the OrionOS trees, use this command:
+
+
+	repo init -u git://github.com/TeamOrion/platform_manifest.git -b n
+
+
+Then sync up with this command:
+
+	repo sync
+
+You may track qcom common repo locally, as some devices need different ones.
