@@ -515,7 +515,7 @@
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
   <project path="system/security" name="system_security" remote="aospb" />
-  <project path="system/vold" name="system_vold" remote="aospb" />
+  <project path="system/vold" name="system_vold" remote="orion" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
