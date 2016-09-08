@@ -29,7 +29,7 @@
 	  fetch="https://github.com/TeamOrion"
 	  revision="6.0.1" />
 
-  <default revision="refs/tags/android-6.0.1_r62"
+  <default revision="refs/tags/android-6.0.1_r67"
            remote="aosp"
            sync-j="4"
            sync-c="true"
@@ -426,7 +426,7 @@
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="slim" revision="mm6.0-caf" />
   <project path="hardware/ril" name="hardware_ril" remote="slim" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="slim" revision="mm6.0-caf" />
-  <project path="libcore" name="libcore" remote="aospb" />
+  <project path="libcore" name="libcore" remote="orion" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="aospb" />
@@ -515,7 +515,7 @@
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
   <project path="system/security" name="system_security" remote="aospb" />
-  <project path="system/vold" name="system_vold" remote="aospb" />
+  <project path="system/vold" name="system_vold" remote="orion" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
