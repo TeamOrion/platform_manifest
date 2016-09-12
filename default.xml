@@ -21,14 +21,14 @@
   <project path="Documentation" name= "TeamOrion/Documentation" remote="github" revision="master" >
   <copyfile src="orion.sh" dest="orion.sh" />
   </project>
-  <project name="platform_build" path="build" groups="pdk,tradefed" remote="orion" >
+  <project path="build" name="build" groups="pdk,tradefed" remote="orion" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="orion" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="orion" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="orion" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="orion" />
+  <project path="frameworks/av" name="frameworks/av" groups="pdk" remote="orion" />
+  <project path="frameworks/base" name="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="orion" />
+  <project path="frameworks/native" name="frameworks/native" groups="pdk" remote="orion" />
+  <project path="packages/apps/Settings" name="packages/apps/Settings" groups="pdk-fs" remote="orion" />
   
 <!--AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
