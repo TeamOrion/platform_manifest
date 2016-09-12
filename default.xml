@@ -7,10 +7,17 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote name="orion"
+	  fetch="https://github.com/TeamOrion"
+	  revision="N" />
+
   <default revision="refs/tags/android-7.0.0_r4"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
+
+<!-- Orion Stuff -->
+  <project path="vendor/orion" name="vendor_orion" remote="orion" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
