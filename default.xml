@@ -9,7 +9,7 @@
 
   <remote name="orion"
 	  fetch="https://github.com/TeamOrion"
-	  revision="N" />
+	  revision="n" />
 
   <default revision="refs/tags/android-7.0.0_r4"
            remote="aosp"
