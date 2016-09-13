@@ -25,10 +25,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="frameworks/av" name="frameworks/av" groups="pdk" remote="orion" />
-  <project path="frameworks/base" name="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="orion" />
-  <project path="frameworks/native" name="frameworks/native" groups="pdk" remote="orion" />
-  <project path="packages/apps/Settings" name="packages/apps/Settings" groups="pdk-fs" remote="orion" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="orion" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="orion" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="orion" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="orion" />
   
 <!--AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -525,4 +525,5 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="staging/cm-14.0" remote="github" />
   <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="staging/cm-14.0" remote="github" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="staging/cm-14.0" remote="github" />
 </manifest>
