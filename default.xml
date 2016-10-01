@@ -57,7 +57,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="orion" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="orion" />
 
-  
+
 <!--AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
@@ -510,22 +510,22 @@
 
 <!-- CAF -->
   <!-- Caf additions -->
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="staging/cm-14.0" remote="github" />
-  <project path="external/brctl" name="CyanogenMod/android_external_brctl" revision="staging/cm-14.0" remote="github" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" revision="staging/cm-14.0" remote="github" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" revision="staging/cm-14.0" remote="github" />
-  <project path="external/json-c" name="CyanogenMod/android_external_json-c" revision="staging/cm-14.0" remote="github" />
-  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" revision="staging/cm-14.0" remote="github" />
-  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" revision="staging/cm-14.0" remote="github" />
-  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="staging/cm-14.0" remote="github" />
-  <project path="external/powertop" name="CyanogenMod/android_external_powertop" revision="staging/cm-14.0" remote="github" />
-  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" revision="staging/cm-14.0" remote="github" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="staging/cm-14.0" remote="github" />
-  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" remote="github" />
-  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="staging/cm-14.0" remote="github" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="staging/cm-14.0" remote="github" />
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="cm-14.0" remote="github" />
+  <project path="external/brctl" name="CyanogenMod/android_external_brctl" revision="cm-14.0" remote="github" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="cm-14.0" remote="github" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" revision="cm-14.0" remote="github" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" revision="cm-14.0" remote="github" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" revision="cm-14.0" remote="github" />
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" revision="cm-14.0" remote="github" />
+  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" revision="cm-14.0" remote="github" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-14.0" remote="github" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" revision="cm-14.0" remote="github" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" revision="cm-14.0" remote="github" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="cm-14.0" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="cm-14.0" remote="github" />
+  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="cm-14.0" remote="github" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-14.0" remote="github" />
 </manifest>
