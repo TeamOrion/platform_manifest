@@ -56,7 +56,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="orion" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="orion" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="orion" />
-
+  <project path="system/extras" name="platform/system/extras" groups="pdk" remote ="orion" />
 
 <!--AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -463,7 +463,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
