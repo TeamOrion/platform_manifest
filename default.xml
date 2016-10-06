@@ -511,7 +511,6 @@
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-14.0" remote="github" />
   <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="staging/cm-14.0-caf" />
   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom,qcom_fm" revision="cm-14.0" remote="github" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" revision="cm-14.0" remote="github" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" revision="cm-14.0" remote="github" />
