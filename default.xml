@@ -57,7 +57,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="orion" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="orion" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="orion" />
-  <project path="system/extras" name="system/extras" groups="pdk" remote ="orion" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote ="orion" />
   <project path="system/media" name="system_media" groups="pdk" remote="orion" />
   <project path="external/ipsec-tools" name="external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="orion" />
 <!--AOSP -->
