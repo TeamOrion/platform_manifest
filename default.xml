@@ -11,6 +11,10 @@
 	  fetch="https://github.com/TeamOrion"
 	  revision="n" />
 
+  <remote name="to-d"
+	  fetch="https://github.com/TeamOrion-Devices"
+	  revision="n" />
+
   <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
            sync-c="true"
