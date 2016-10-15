@@ -64,6 +64,12 @@
   <project path="system/extras" name="system_extras" groups="pdk" remote ="orion" />
   <project path="system/media" name="system_media" groups="pdk" remote="orion" />
   <project path="external/ipsec-tools" name="external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="orion" />
+
+<!-- 3rd Party Additions -->
+
+<!--masquerade -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+
 <!--AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
@@ -493,7 +499,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 <!-- CAF -->
-  <!-- Caf additions -->
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-14.0" remote="github" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-14.0" remote="github" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="cm-14.0" remote="github" />
