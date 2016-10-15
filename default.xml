@@ -22,7 +22,7 @@
 
 <!-- Orion Stuff -->
   <project path="vendor/orion" name="vendor_orion" remote="orion" />
-  <project path="Documentation" name= "TeamOrion/Documentation" remote="github" revision="master" >
+  <project path="Documentation" name= "TeamOrion/Documentation" remote="github" revision="n" >
   <copyfile src="orion.sh" dest="orion.sh" />
   </project>
   <project path="build" name="build" groups="pdk,tradefed" remote="orion" >
