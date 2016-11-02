@@ -537,14 +537,14 @@
   
   
 <!-- Uber Toolchain  -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" name="DespairFactor/arm-eabi-5.x" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="DespairFactor/arm-linux-androideabi-5.x" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="DespairFactor/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" name="DespairFactor/aarch64-linux-android-5.x-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" name="mdalexca/arm-eabi-5.x" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="mdalexca/arm-eabi-6.x" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="mdalexca/arm-linux-androideabi-5.x" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="mdalexca/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="mdalexca/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" name="mdalexca/aarch64-linux-android-5.x-kernel" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.0-kernel" name="UBERTC/aarch64-linux-android-6.0-kernel" remote="bb" revision="master" />
 
 <!-- Orion OTA -->
