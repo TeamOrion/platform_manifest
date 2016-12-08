@@ -9,11 +9,11 @@
 
   <remote name="orion"
 	  fetch="https://github.com/TeamOrion"
-	  revision="n" />
+	  revision="7.1.1" />
 
   <remote name="to-d"
 	  fetch="https://github.com/TeamOrion-Devices"
-	  revision="n" />
+	  revision="7.1.1" />
 	  
   <remote name="cm"
 	  fetch="https://github.com/CyanogenMod"
