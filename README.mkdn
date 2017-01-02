@@ -11,7 +11,7 @@ To get started with OrionOS, you'll need to get familiar with
 To initialize your local repository using the OrionOS trees, use this command:
 
 
-	repo init -u git://github.com/TeamOrion/platform_manifest.git -b n
+	repo init -u git://github.com/TeamOrion/platform_manifest.git -b 7.1.1
 
 
 Then sync up with this command:
