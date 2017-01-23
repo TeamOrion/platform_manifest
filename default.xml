@@ -16,7 +16,7 @@
 	  revision="7.1.1" />
 	  
   <remote name="cm"
-	  fetch="https://github.com/CyanogenMod"
+	  fetch="https://github.com/LineageOS"
 	  revision="cm-14.1" />
 	  
   <remote name = "bb"
@@ -96,7 +96,7 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
- <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -585,11 +585,7 @@
   <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="cm" />
   
   <!-- UBERTC -->
-  <project path="prebuilts/clang/host/linux-x86/sdclang-3.8" remote="bb" name="mdalexca/sdclang-3.8" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="mdalexca/aarch64-linux-android-4.9" remote="bb" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bb" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="mdalexca/aarch64-linux-android-6.x" remote="bb" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="mdalexca/arm-eabi-6.x" remote="bb" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bb" clone-depth="1" />
-</manifest>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" clone-depth="1" />
+  </manifest>
