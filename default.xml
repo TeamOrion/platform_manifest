@@ -614,6 +614,6 @@
   <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8996" /
+  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8996" />
 
 </manifest>
