@@ -2,11 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-            fetch="https://github.com/" />
+           fetch="https://github.com/" />
 
   <remote name="orion"
 	  fetch="https://github.com/TeamOrion"
