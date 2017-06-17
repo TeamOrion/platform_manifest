@@ -17,6 +17,9 @@
            sync-c="true"
            sync-j="4" />
 
+<!-- Orion Stuff -->
+  <project path="vendor/orion" name="vendor_orion" remote="orion" />
+
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
