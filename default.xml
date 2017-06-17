@@ -529,12 +529,11 @@
   <project path="external/json-c" name="LineageOS/android_external_json-c" revision="cm-14.1" remote="github" />
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" revision="cm-14.1" remote="github" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" revision="cm-14.1" remote="github" />
-  <project path="external/mm-dash" name="LineageOS/android_external_mm-dash" revision="cm-14.1" remote="github" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" revision="cm-14.1" remote="github" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
-  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_packages_apps_BluetoothExt" revision="cm-14.1" remote="github" />
+  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" revision="cm-14.1" remote="github" />
   <project name="LineageOS/android_external_e2fsprogs" path="external/e2fsprogs" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="cm-14.1" />
