@@ -17,9 +17,12 @@
            sync-j="4" />
 
 <!-- Orion Stuff -->
+  <project path="platform_manifest" name="platform_manifest" remote="orion" /> 
   <project path="vendor/orion" name="vendor_orion" remote="orion" />
+  <project path="frameworks/base" name="frameworks_base" remote="orion" /> 
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="orion" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="build" remote="orion" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -308,7 +311,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -414,7 +416,6 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
