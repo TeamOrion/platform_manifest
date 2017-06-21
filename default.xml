@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-<!-- Orion Stuff -->
+<!-- BEGIN ORION -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" /> 
   <project path="vendor/orion" name="vendor_orion" remote="orion" />
   <project path="frameworks/base" name="frameworks_base" remote="orion" /> 
@@ -29,15 +29,19 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="orion" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="orion" />
   <project path="system/sepolicy" name="system_sepolicy" remote="orion" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="orion" /> 
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="orion" />
+  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="orion" />
   <project path="build" name="build" remote="orion" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-<!-- End Orion Stuff -->
+<!-- END ORION -->
 
 <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
-<!-- ENG SUBSTRATUM -->
+<!-- END SUBSTRATUM -->
 
+<!-- BEGIN AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -443,8 +447,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
@@ -522,8 +524,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
+<!-- END AOSP -->
 
-<!-- CAF -->
+<!-- BEGIN CAF -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="cm-14.1" remote="github" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" revision="cm-14.1" remote="github" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" revision="cm-14.1" remote="github" />
@@ -599,5 +602,6 @@
   <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8996" />
+<!-- END CAF -->
 
 </manifest>
