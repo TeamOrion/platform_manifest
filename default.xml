@@ -541,6 +541,7 @@
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="qcom" revision="cm-14.1" remote="github" />
