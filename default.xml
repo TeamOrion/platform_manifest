@@ -34,7 +34,6 @@
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="orion" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="orion" /> 
   <project path="frameworks/av" name="frameworks_av" remote="orion" />
-  <project path="system/bt" name="system_bt" remote="orion" />
   <project path="system/extras" name="system_extras" remote="orion" />
   <project path="system/media" name="system_media" remote="orion" />
   <project path="system/vold" name="system_vold" remote="orion" />
@@ -541,6 +540,7 @@
   <project path="external/powertop" name="LineageOS/android_external_powertop" revision="cm-14.1" remote="github" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
+  <project path="system/bt" name="LineageOS/android_system_bt" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" revision="cm-14.1" remote="github" />
