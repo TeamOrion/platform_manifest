@@ -52,6 +52,11 @@
   <project path="build" name="build" remote="orion" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="Documentation" name="Documentation" remote="orion" 
+revision="n" >
+  <copyfile src="orion.sh" dest="orion.sh" />
+  </project>
 <!-- END ORION -->
 
 <!-- BEGIN SUBSTRATUM -->
