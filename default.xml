@@ -45,6 +45,7 @@
   <project path="system/media" name="system_media" remote="orion" />
   <project path="system/vold" name="system_vold" remote="orion" />
   <project path="system/core" name="system_core" remote="orion" />
+  <project path="system/bt" name="system_bt" remote="orion" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="orion" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="orion" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="orion" />
@@ -553,7 +554,6 @@ revision="n" >
   <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" revision="cm-14.1" remote="github" />
