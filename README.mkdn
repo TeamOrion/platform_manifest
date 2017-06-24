@@ -1,0 +1,19 @@
+Welcome to OrionOS
+ ===================
+ 
+ Getting Started
+ ---------------
+ 
+ To get started with OrionOS, you'll need to get familiar with
+ [Git and Repo](http://source.android.com/download/using-repo).
+ 
+ To initialize your local repository using the OrionOS trees, use this command:
+ 
+ 
+ 	repo init -u git://github.com/TeamOrion/platform_manifest.git -b n7.x
+ 
+ 
+ Then sync up with this command:
+ 
+ 	repo sync
+ 
