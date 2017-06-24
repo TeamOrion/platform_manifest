@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote name="orion"
+	  fetch="https://github.com/TeamOrion"
+	  revision="n7.x" />
+
+  <remote  name="laos"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/cm-14.1" />
+
+  <remote  name="caf"
+           fetch="git://codeaurora.org/quic/la"
+           review="codeaurora.org" />
+
+  <default remote="caf"
+           revision="refs/tags/LA.UM.5.6.r1-04900-89xx.0"
+           sync-j="4" />
+
+  <!-- Include CAF repos -->
+  <include name="caf.xml" />
+
+  <!-- REMOVE PROJECTS -->
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/sample" />
+  <remove-project name="kernel/lk" />
+  <remove-project name="kernel/msm-3.18" />
+  <remove-project name="platform/hardware/qcom/audio"/>
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/vendor/qcom/cobalt" />
+  <remove-project name="platform/vendor/qcom/thorium_32"/>
+  <remove-project name="platform/vendor/qcom/thorium_64"/>
+  <remove-project name="platform/vendor/qcom/thulium"/>
+  <remove-project name="platform/vendor/qcom/titanium_32"/>
+  <remove-project name="platform/vendor/qcom/titanium_64"/>
+ 
+  <!-- BEGIN LINEAGE-OS -->
+  <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8084" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8916" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8937" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8952" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8960" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8974" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8994" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8996" />
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="laos" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="laos" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8084" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8916" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8937" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8952" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8960" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8974" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8994" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8996" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="laos" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="laos" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" groups="qcom" remote="laos" revision="cm-14.1-caf-8084" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" groups="qcom" remote="laos" revision="cm-14.1-caf-8916" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" groups="qcom" remote="laos" revision="cm-14.1-caf-8937" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" groups="qcom" remote="laos" revision="cm-14.1-caf-8952" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" groups="qcom" remote="laos" revision="cm-14.1-caf-8960" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" remote="laos" revision="cm-14.1-caf-8974" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" groups="qcom" remote="laos" revision="cm-14.1-caf-8994" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" groups="qcom" remote="laos" revision="cm-14.1-caf-8996" />
+  <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="laos" />
+  <!-- END LINEAGE-OS -->
