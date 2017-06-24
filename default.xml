@@ -65,6 +65,13 @@
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="device/qcom/common" />
+  <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/flac" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/packages/apps/FMRadio" />
+  <remove-project name="platform/external/fsck_msdos" />  
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
@@ -87,6 +94,18 @@
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="orion" />
  
   <!-- BEGIN LINEAGE-OS -->
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="laos" />
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="laos" />
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="laos" />
+  <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="laos" />
+  <project name="android_external_flac" path="external/flac" remote="laos" />
+  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="laos" />
+  <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="laos" />
+  <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="laos" />
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="laos" />
+  <project name="android_external_fsck_msdos" path="external/fsck_msdos" remote="laos" />
+  <project name="android_external_fuse" path="external/fuse" remote="laos" />
+  <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="laos" />
   <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8084" />
