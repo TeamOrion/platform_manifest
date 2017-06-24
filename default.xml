@@ -50,9 +50,41 @@
   <remove-project name="platform/vendor/qcom/thulium"/>
   <remove-project name="platform/vendor/qcom/titanium_32"/>
   <remove-project name="platform/vendor/qcom/titanium_64"/>
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
+  <project name="art" path="art" remote="orion" />
+  <project name="bionic" path="bionic" remote="orion" />
+  <project name="build" path="build" remote="orion" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="build_kati" path="build/kati" remote="orion" groups="pdk,tradefed" />
+  <project name="frameworks_av" path="frameworks/av" remote="orion" />
+  <project name="frameworks_base" path="frameworks/base" remote="orion" />
+  <project name="frameworks_native" path="frameworks/native" remote="orion" />
+  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="orion" />
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="orion" />
+  <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="orion" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="orion" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="orion" />
+  <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="orion" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="orion" />
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="orion" />
  
   <!-- BEGIN LINEAGE-OS -->
   <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
