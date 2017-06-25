@@ -83,6 +83,17 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" /> 
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/external/ant-wireless/ant_native" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/jemalloc" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/okhttp" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/tinyalsa" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
@@ -112,6 +123,17 @@
   <project name="system_vold" path="system/vold" remote="orion" />
   <project name="system_qcom" path="vendor/qcom/opensource/softap" remote="orion"/> 
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="orion" /> 
+  <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="orion" />
+  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="orion" />
+  <project name="external_jemalloc" path="external/jemalloc" remote="orion" />
+  <project name="external_mksh" path="external/mksh" remote="orion" />
+  <project name="external_okhttp" path="external/okhttp" remote="orion" />
+  <project name="external_skia" path="external/skia" remote="orion" />
+  <project name="external_tinyalsa" path="external/tinyalsa" remote="orion" />
+  <project name="external_tinycompress" path="external/tinycompress" remote="orion" />
+  <project name="external_toybox" path="external/toybox" remote="orion" />
+  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="orion" />
+  <project name="external_zlib" path="external/zlib" remote="orion" />
 
   <!-- BEGIN LINEAGE-OS -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="laos" />
