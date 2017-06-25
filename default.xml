@@ -94,6 +94,7 @@
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
@@ -134,6 +135,7 @@
   <project name="external_toybox" path="external/toybox" remote="orion" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="orion" />
   <project name="external_zlib" path="external/zlib" remote="orion" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="orion" />
 
   <!-- BEGIN LINEAGE-OS -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="laos" />
