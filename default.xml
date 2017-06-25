@@ -153,6 +153,9 @@
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="laos" />
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="laos" />
   <project name="android_external_flac" path="external/flac" remote="laos" />
+  <project name="android_external_bash" path="external/bash" remote="laos" />
+  <project name="android_external_busybox" path="external/busybox" remote="laos" />
+  <project name="android_external_connectivity" path="external/connectivity" remote="laos" />
   <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="laos" />
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="laos" />
   <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="laos" />
