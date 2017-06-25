@@ -95,6 +95,11 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
+  <remove-project name="platform/packages/apps/ExactCalculator" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
