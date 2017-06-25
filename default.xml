@@ -79,6 +79,10 @@
   <remove-project name="platform/system/qcom" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" /> 
+  <remove-project name="platform/hardware/libhardware" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
@@ -107,7 +111,8 @@
   <project name="system_sepolicy" path="system/sepolicy" remote="orion" />
   <project name="system_vold" path="system/vold" remote="orion" />
   <project name="system_qcom" path="vendor/qcom/opensource/softap" remote="orion"/> 
- 
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="orion" /> 
+
   <!-- BEGIN LINEAGE-OS -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="laos" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="laos" />
@@ -122,6 +127,12 @@
   <project name="android_external_fuse" path="external/fuse" remote="laos" />
   <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="laos" />
   <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" remote="github" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="github" />
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1" remote="github" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" remote="github" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8084" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8916" />
