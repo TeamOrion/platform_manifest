@@ -199,4 +199,8 @@
   <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="laos" />
   <!-- END LINEAGE-OS -->
 
+  <!-- BEGIN SUBSTRATUM -->
+  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
+  <!-- END SUBSTRATUM -->
+
 </manifest>
