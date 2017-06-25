@@ -136,6 +136,11 @@
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="orion" />
   <project name="external_zlib" path="external/zlib" remote="orion" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="orion" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="orion"/>
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="orion" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="orion" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="orion" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="orion" />
 
   <!-- BEGIN LINEAGE-OS -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="laos" />
