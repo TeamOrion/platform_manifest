@@ -100,6 +100,15 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <remove-project name="platform/vendor/qcom-opensource/dpm" />
+  <remove-project name="platform/vendor/qcom-opensource/fm" />
+  <remove-project name="platform/vendor/qcom-opensource/location" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
@@ -146,6 +155,9 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="orion" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="orion" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="orion" />
+  <project name="vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="orion" />
+  <project name="vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="orion" />
+  <project name="vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="orion" />
 
   <!-- BEGIN LINEAGE-OS -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="laos" />
