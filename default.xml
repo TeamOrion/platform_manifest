@@ -105,10 +105,6 @@
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
@@ -217,5 +213,9 @@
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
   <!-- END SUBSTRATUM -->
+
+  <!-- BEGIN CAF -->
+  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-04900-89xx.0" />
+  <!-- END CAF -->
 
 </manifest>
