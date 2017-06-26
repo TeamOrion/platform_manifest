@@ -214,8 +214,4 @@
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
   <!-- END SUBSTRATUM -->
 
-  <!-- BEGIN CAF -->
-  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-04900-89xx.0" />
-  <!-- END CAF -->
-
 </manifest>
