@@ -110,6 +110,7 @@
   <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/packages/providers/DownloadProvider">
+  <remove-project name="platform/frameworks/support" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
@@ -160,6 +161,7 @@
   <project name="vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="orion" />
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="orion" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="orion" />
+  <project name="frameworks_support" path="frameworks/support" remote="orion" />
 
   <!-- BEGIN LINEAGE-OS -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="laos" />
