@@ -113,6 +113,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
