@@ -114,6 +114,9 @@
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
+  <remove-project name="platform/external/libnfc-nci" />
+  <remove-project name="platform/external/libnfc-nxp" />
+  <remove-project name="platform/packages/apps/Nfc" />
 
   <!-- BEGIN ORION-OS -->
   <project path="platform_manifest" name="platform_manifest" remote="orion" />
@@ -184,6 +187,9 @@
   <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="laos" />
   <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
   <project name="android_external_chromium-webview" path="external/chromium-webview" remote="laos" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="laos" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="laos" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="laos" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="laos" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" remote="github" />
